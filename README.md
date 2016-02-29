@@ -1,4 +1,4 @@
 # hello-world
-Hi Hunmans,
+Hi Humans,
 
 Today I started my new home here in GitHub. Better late than never!
