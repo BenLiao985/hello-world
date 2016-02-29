@@ -1,2 +1,4 @@
 # hello-world
-My hello-world repository can be a place where I store ideas, resources, or even share and discuss things with others
+Hi Hunmans,
+
+Today I started my new home here in GitHub. Better late than never!
