@@ -27,7 +27,7 @@ object WordCount {
     //map把每个单词映射成(word,1)的格式
     //reduceByKey则按key，在此即单词，做整合，即把相同单词的次数1相加
     val words = indata.flatMap(line => line.split(" ")).map(word => (word,1)).reduceByKey((a,b) => a+b)
-    //获取包含ERROR的所有行
+    //获取包含ERROR或WARN的所有行
     val errlineRDD = indata.filter(line => line.contains("ERROR"))
     val warnlineRDD = indata.filter(line => line.contains("WARN"))
     words.saveAsTextFile(args(1))
